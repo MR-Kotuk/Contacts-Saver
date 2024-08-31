@@ -1,29 +1,68 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+# Maven build directory
+target/
+!target/*.jar
+!target/*.war
+
+# Gradle build directory (if applicable)
+build/
+!build/libs/*.jar
+
+# Eclipse project files
 .project
-.settings
-.springBeans
-.sts4-cache
-bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+.classpath
+.settings/
+.metadata/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+out/
 
-### VS Code ###
+# NetBeans project files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+nbproject/harakiri/
+nbproject/rcu/
+*.nb-gradle/
+
+# VSCode project files
 .vscode/
 
-### Mac OS ###
+# Logs
+*.log
+
+# OS-specific files
 .DS_Store
+Thumbs.db
+
+# Hibernate files
+*.hbm.xml
+
+# MySQL dump files
+*.sql
+
+# Configuration files (if not intended for version control)
+*.properties
+*.xml
+*.yml
+*.yaml
+
+# Miscellaneous
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
