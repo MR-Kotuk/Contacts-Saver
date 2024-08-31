@@ -17,7 +17,7 @@ Clone the project
 
 Help
 ```bash
-  cs HELP
+  cs help
 ```
 
 Show all contacts
@@ -44,12 +44,6 @@ Find contact
 ```bash
   cs fn
 ```
-
-Save
-```bash
-  cs save
-```
-
 
 ## Authors
 
